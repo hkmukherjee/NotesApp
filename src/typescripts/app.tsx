@@ -149,8 +149,7 @@ const NoteApp = () => {
     const [showLoader, setShowLoader] = useState(true);   
 
     useEffect(() => {
-        setTimeout(() => {    
-            console.log(1);        
+        setTimeout(() => {      
             const responseNotes: Array<Note> = 
                 JSON.parse(localStorage.getItem('notes')) || new Array<Note>();                
             
