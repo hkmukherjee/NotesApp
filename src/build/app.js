@@ -82,6 +82,7 @@ const NoteApp = () => {
     const [showLoader, setShowLoader] = (0, react_1.useState)(true);
     (0, react_1.useEffect)(() => {
         setTimeout(() => {
+            console.log(1);
             const responseNotes = JSON.parse(localStorage.getItem('notes')) || new Array();
             if (responseNotes && responseNotes.length > 0) {
                 dispatch(new NotesReducerAction('POPULATE_NOTES', responseNotes, null, null));
