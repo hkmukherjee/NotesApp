@@ -1,0 +1,42 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve",
+    "build-webpack-dev": "webpack",
+    "build-webpack-prod": "webpack --env production",
+    "build-tsc": "tsc",
+    "build-tsc-watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/react": "^17.0.19",
+    "css-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.3.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "typescript": "^4.4.2",
+    "webpack": "^5.51.2",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  },
+  "dependencies": {
+    "firebase": "^9.0.2",
+    "moment": "^2.18.1",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-addons-shallow-compare": "^15.6.0",
+    "react-dates": "^12.7.0",
+    "react-dom": "^17.0.2",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "uuid": "^8.3.2"
+  }
+}
